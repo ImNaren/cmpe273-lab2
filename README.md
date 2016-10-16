@@ -12,9 +12,9 @@ toolkit to build the application.
 ```sh
 curl "http://localhost:8000/checkcrime?lat=37.334164&lon=-121.884301&radius=0.02"
 ```
-Output in Json returns crime information.
-[
-  {
+Output(Json) returns crime information.
+```json
+{
     "event_time_count": {
       "3:01am-6am": 0,
       "12:01pm-3pm": 2,
@@ -40,8 +40,7 @@ Output in Json returns crime information.
       "N 5TH ST"
     ]
   }
-]
-
+```
 ### Dependency
 
 #### CrimeReport API
